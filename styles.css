@@ -1,0 +1,52 @@
+body {
+	background-image: url("sunset.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: skyblue;
+	background-attachment: fixed;
+	text-align: center;
+
+}
+
+h1 {
+	font-family: sans-serif;
+	color: skyblue;
+	font-size: 5em;
+	text-shadow: darkblue 2px 4px 2px, black -4px -2px 1px;
+
+}
+div#button {
+	background-color: darkorange;
+	font-size: 2.6em;
+	width: 30%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	box-shadow: lightblue 1px 1px 3px;
+	cursor: pointer;
+	transition: all 1s;
+
+}
+
+div#button:hover {
+	background-color: black;
+	color: darkorange;
+}
+
+h2#victory {
+	font-family: cursive;
+	font-size: 2.7em;
+	color: palegreen;
+	text-shadow: black 3px 3px 1px;
+}
+
+h2#defeat {
+	font-family: fantasy;
+	font-size: 2.9em;
+	color: red;
+	text-shadow: white 2px 2px 2px, black 3px 3px 1px;
+}
+
+}
+}
